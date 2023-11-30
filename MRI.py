@@ -12,12 +12,12 @@ import cv2
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score 
 import imutils
-from keras.utils.np_utils import to_categorical
-from keras.layers import  MaxPooling2D
-from keras.layers import Dense, Dropout, Activation, Flatten
-from keras.layers import Convolution2D
-from keras.models import Sequential
-from keras.models import model_from_json
+from tensorflow.keras.utils.np_utils import to_categorical
+from tensorflow.keras.layers import  MaxPooling2D
+from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten
+from tensorflow.keras.layers import Convolution2D
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.models import model_from_json
 import pickle
 from sklearn import metrics
 import ftplib
